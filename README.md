@@ -2,9 +2,9 @@
 
 ## 📌 Project Overview
 
-This project was completed as part of the **AnalystLab Africa Data Analytics Internship (Week 1)**.
+This project was completed as part of the **AnalystLab Africa Data Analytics Internship Week 1**.
 
-The objective was to clean, validate, and analyze an Online Retail Transactions dataset to transform raw transactional data into a structured, analysis-ready dataset while uncovering meaningful business insights through Exploratory Data Analysis (EDA).
+The objective was to clean, validate, and analyze an online retail transactions dataset to transform raw transactional data into a structured, analysis-ready dataset while uncovering meaningful business insights through Exploratory Data Analysis (EDA).
 
 ---
 
@@ -12,25 +12,27 @@ The objective was to clean, validate, and analyze an Online Retail Transactions 
 
 **Dataset:** Online Retail Transactions
 
-Source: Kaggle
+**Source:** Kaggle  
+https://www.kaggle.com/datasets/vijayuv/onlineretail
 
-The dataset contains customer transactions for an online retail store, including invoice information, products purchased, quantities, prices, customer IDs, and countries.
+**Note:** Due to GitHub file size limitations, the cleaned dataset (`OnlineRetail_Cleaned.csv`) is not included in this repository.
 
 ---
 
 ## 🎯 Project Objectives
 
-- Understand the dataset structure
-- Clean and validate the data
-- Handle missing values and duplicates
-- Standardize column names and data types
-- Detect invalid records and anomalies
-- Perform Exploratory Data Analysis (EDA)
-- Generate business insights through visualizations
+- Understand the structure and quality of the dataset.
+- Clean and validate raw transactional data.
+- Handle missing values and duplicate records.
+- Standardize column names and data types.
+- Identify and remove invalid transactions.
+- Perform Exploratory Data Analysis (EDA).
+- Visualize key business trends and customer behavior.
+- Generate actionable business insights and recommendations.
 
 ---
 
-## 🛠 Tools & Libraries
+## 🛠️ Tools & Technologies
 
 - Python
 - Pandas
@@ -41,25 +43,24 @@ The dataset contains customer transactions for an online retail store, including
 
 ---
 
-## 🧹 Data Cleaning
+## 🧹 Data Cleaning Process
 
-The following cleaning steps were performed:
+The following data cleaning tasks were completed:
 
-- Checked dataset structure
-- Identified numerical and categorical variables
-- Identified possible primary key
-- Checked missing values
-- Removed duplicate records
-- Standardized column names
-- Converted InvoiceDate to datetime format
-- Validated negative quantities
-- Identified invalid unit prices
-- Checked cancelled transactions
-- Created Revenue column
+- Loaded and explored the dataset.
+- Identified numerical and categorical features.
+- Checked for missing values and handled them appropriately.
+- Removed duplicate records.
+- Standardized column names.
+- Converted **InvoiceDate** to datetime format.
+- Identified and removed cancelled transactions.
+- Removed records with negative quantities.
+- Removed records with zero or negative unit prices.
+- Created a **Revenue** column for sales analysis.
 
 ---
 
-## 📊 Exploratory Data Analysis
+## 📊 Exploratory Data Analysis (EDA)
 
 The following analyses were performed:
 
@@ -75,37 +76,56 @@ The following analyses were performed:
 
 ## 📈 Visualizations
 
-The project includes visualizations for:
+This project includes the following visualizations:
 
-- Top Selling Products
-- Revenue by Country
-- Monthly Sales Trend
-- Most Frequently Purchased Products
-- Top Customers by Revenue
+- Top 10 Best-Selling Products
+- Top 10 Revenue-Generating Countries
+- Monthly Sales Revenue Trend
+- Top 10 Most Frequently Purchased Products
+- Top 10 Customers by Revenue
 
----
-
-## 🔍 Key Insights
-
-- The United Kingdom generated the highest revenue among all countries.
-- November 2011 recorded the highest monthly sales revenue.
-- WHITE HANGING HEART T-LIGHT HOLDER was the most frequently purchased product.
-- PAPER CRAFT, LITTLE BIRDIE recorded the highest quantity sold.
-- A small number of customers contributed a significant share of total revenue.
+> **Screenshots of the visualizations are included in this repository.**
 
 ---
 
-## 📁 Repository Structure
+## 🔍 Key Findings
 
-```
-Online-Retail-Data-Cleaning-and-EDA/
-│
-├── Online_Retail_Data_Cleaning_EDA.ipynb
-├── OnlineRetail_Cleaned.csv
-├── Summary_Report.pdf
-├── README.md
-└── Visualizations/
-```
+- **PAPER CRAFT, LITTLE BIRDIE** recorded the highest sales quantity.
+- The **United Kingdom** generated the highest total revenue.
+- **November 2011** recorded the highest monthly sales revenue.
+- **WHITE HANGING HEART T-LIGHT HOLDER** was the most frequently purchased product.
+- A small group of customers generated a significant proportion of total revenue.
+
+---
+
+## 💡 Business Recommendations
+
+- Prioritize inventory for high-demand products to reduce stock shortages.
+- Develop customer retention strategies for high-value customers.
+- Plan inventory and marketing campaigns ahead of peak sales periods.
+- Expand sales initiatives in high-performing international markets.
+- Strengthen data validation processes to improve data quality.
+
+---
+
+## 📁 Repository Contents
+
+- `Online_Retail_Data_Cleaning_EDA.ipynb` – Jupyter Notebook containing the complete analysis.
+- `Summary_Report.pdf` – One-page project summary.
+- `Visualizations/` – Charts created during the analysis.
+- `README.md` – Project documentation.
+
+---
+
+## 🚀 Skills Demonstrated
+
+- Data Cleaning
+- Data Validation
+- Exploratory Data Analysis (EDA)
+- Data Visualization
+- Business Insight Generation
+- Python Programming
+- Problem Solving
 
 ---
 
@@ -113,8 +133,11 @@ Online-Retail-Data-Cleaning-and-EDA/
 
 **DANJUMA ZAINAB**
 
-Aspiring Data Analyst passionate about transforming raw data into actionable business insights using Python, SQL, Excel, and Power BI.
+Aspiring Data Analyst passionate about using data to solve business problems through Python, SQL, Excel, and Power BI.
+
+- **LinkedIn:** *https://www.linkedin.com/in/danjuma-zainab*
+- **GitHub:** *https://github.com/Xee-xainab*
 
 ---
 
-⭐ If you found this project helpful, feel free to star the repository.
+⭐ If you found this project interesting, feel free to star the repository or share your feedback!
