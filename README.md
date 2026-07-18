@@ -2,7 +2,7 @@
 
 ## 📌 Project Overview
 
-This project was completed as part of the **AnalystLab Africa Data Analytics Internship (Week 1–2)**.
+This project was completed as part of the **AnalystLab Africa Data Analytics Internship (Week 1)**.
 
 The objective was to clean, validate, and analyze an Online Retail Transactions dataset to transform raw transactional data into a structured, analysis-ready dataset while uncovering meaningful business insights through Exploratory Data Analysis (EDA).
 
